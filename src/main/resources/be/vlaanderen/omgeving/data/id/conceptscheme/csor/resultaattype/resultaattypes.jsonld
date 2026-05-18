@@ -1,0 +1,237 @@
+{
+    "@graph": [
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1",
+            "type": [
+                "csor:Resultaattype",
+                "skos:Concept"
+            ],
+            "deprecated": "false",
+            "definition": "Meting toelichting",
+            "inScheme": [
+                "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+            ],
+            "prefLabel": "Meting",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype",
+            "type": [
+                "skos:ConceptScheme"
+            ],
+            "deprecated": "false",
+            "definition": "Het resultaattype beschrijft de wijze waarop het resultaat van een observatie kan worden voorgesteld.",
+            "skos:hasTopConcept": [
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_4",
+                    "type": [
+                        "csor:Resultaattype",
+                        "skos:Concept"
+                    ],
+                    "deprecated": "false",
+                    "inScheme": [
+                        "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+                    ],
+                    "prefLabel": "Temporele Observatie",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_2",
+                    "type": [
+                        "csor:Resultaattype",
+                        "skos:Concept"
+                    ],
+                    "deprecated": "false",
+                    "inScheme": [
+                        "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+                    ],
+                    "prefLabel": "Classificatie",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_3",
+                    "type": [
+                        "csor:Resultaattype",
+                        "skos:Concept"
+                    ],
+                    "deprecated": "false",
+                    "inScheme": [
+                        "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+                    ],
+                    "prefLabel": "Aantal",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+                },
+                {
+                    "id": "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1",
+                    "type": [
+                        "csor:Resultaattype",
+                        "skos:Concept"
+                    ],
+                    "deprecated": "false",
+                    "definition": "Meting toelichting",
+                    "inScheme": [
+                        "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+                    ],
+                    "prefLabel": "Meting",
+                    "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+                }
+            ],
+            "prefLabel": "Resultaattype"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_4",
+            "type": [
+                "csor:Resultaattype",
+                "skos:Concept"
+            ],
+            "deprecated": "false",
+            "inScheme": [
+                "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+            ],
+            "prefLabel": "Temporele Observatie",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_2",
+            "type": [
+                "csor:Resultaattype",
+                "skos:Concept"
+            ],
+            "deprecated": "false",
+            "inScheme": [
+                "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+            ],
+            "prefLabel": "Classificatie",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+        },
+        {
+            "id": "https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_3",
+            "type": [
+                "csor:Resultaattype",
+                "skos:Concept"
+            ],
+            "deprecated": "false",
+            "inScheme": [
+                "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+            ],
+            "prefLabel": "Aantal",
+            "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype"
+        }
+    ],
+    "@context": {
+        "id": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "type": {
+            "@id": "@type",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@reverse": "http://www.w3.org/2004/02/skos/core#broader"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "symbool": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#symbool",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id"
+        },
+        "deprecated": {
+            "@id": "http://www.w3.org/2002/07/owl#deprecated",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "valid": {
+            "@id": "http://purl.org/dc/terms/valid",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        },
+        "parameter": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#heeftParameter",
+            "@type": "@id"
+        },
+        "aspect": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#heeftAspect",
+            "@type": "@id"
+        },
+        "parameterAspectvan": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#parameterAspectVan",
+            "@type": "@id"
+        },
+        "eenheidVan": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#eenheidVan",
+            "@type": "@id"
+        },
+        "parameterAspectNaar": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#parameterAspectNaar",
+            "@type": "@id"
+        },
+        "eenheidNaar": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#eenheidNaar",
+            "@type": "@id"
+        },
+        "factor": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#factor",
+            "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        },
+        "omkeerbaar": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#omkeerbaar",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "kwantificeerbareAspecten": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#kwantificeerbareAspecten",
+            "@type": "@id",
+            "@container": "@set"
+        },
+        "natuurkundigeDimensie": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#natuurkundigeDimensie",
+            "@type": "@id"
+        },
+        "conversiefactor": {
+            "@id": "https://data.omgeving.vlaanderen.be/ns/csor#conversiefactor"
+        },
+        "dcterms": "http://purl.org/dc/terms/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "qudt": "http://qudt.org/schema/qudt/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "iadopt": "https://w3id.org/iadopt/ont/",
+        "csor": "https://data.omgeving.vlaanderen.be/ns/csor#"
+    }
+}
