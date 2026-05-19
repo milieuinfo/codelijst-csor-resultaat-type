@@ -9,6 +9,8 @@ Het resultaattype beschrijft de wijze waarop het resultaat van een observatie ka
 De codelijst is gepubliceerd als linked data onder de namespace:
 `https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype`
 
+Named graph (Virtuoso): `https://data.omgeving.vlaanderen.be/id/graph/codelijst-csor-resultaat-type`
+
 ## Concepten
 
 | ID   | Label                | Omschrijving          |
