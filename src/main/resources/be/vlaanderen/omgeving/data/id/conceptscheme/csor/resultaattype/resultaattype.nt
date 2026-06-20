@@ -1,7 +1,6 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meting"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype> .
-<https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1> <http://www.w3.org/2004/02/skos/core#definition> "Meting toelichting"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1> <http://www.w3.org/2002/07/owl#deprecated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/csor#Resultaattype> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .

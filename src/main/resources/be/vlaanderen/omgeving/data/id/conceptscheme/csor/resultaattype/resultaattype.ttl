@@ -3,6 +3,7 @@ PREFIX csor-constraints: <https://data.omgeving.vlaanderen.be/ns/csor-constraint
 PREFIX dcterms:          <http://purl.org/dc/terms/>
 PREFIX iadopt:           <https://w3id.org/iadopt/ont/>
 PREFIX owl:              <http://www.w3.org/2002/07/owl#>
+PREFIX pubChem:          <https://pubchem.ncbi.nlm.nih.gov/rest/rdf/>
 PREFIX qudt:             <http://qudt.org/schema/qudt/>
 PREFIX rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:             <http://www.w3.org/2000/01/rdf-schema#>
@@ -13,7 +14,6 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
 <https://data.omgeving.vlaanderen.be/id/concept/csor/resultaattype/RT_1>
         rdf:type           csor:Resultaattype , skos:Concept;
         owl:deprecated     false;
-        skos:definition    "Meting toelichting"@nl;
         skos:inScheme      <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype>;
         skos:prefLabel     "Meting"@nl;
         skos:topConceptOf  <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/resultaattype> .

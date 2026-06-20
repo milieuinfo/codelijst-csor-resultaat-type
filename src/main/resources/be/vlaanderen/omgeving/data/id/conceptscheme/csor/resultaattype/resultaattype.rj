@@ -54,12 +54,6 @@
       "lang" : "nl"
     }
      ] ,
-    "http://www.w3.org/2004/02/skos/core#definition" : [ { 
-      "type" : "literal" ,
-      "value" : "Meting toelichting" ,
-      "lang" : "nl"
-    }
-     ] ,
     "http://www.w3.org/2002/07/owl#deprecated" : [ { 
       "type" : "literal" ,
       "value" : "false" ,
