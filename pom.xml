@@ -9,14 +9,14 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-csor-resultaat-type</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.0</version>
   <name>codelijst-csor-resultaat-type</name>
   <description />
   <scm>
     <connection>scm:git:https://github.com/milieuinfo/codelijst-csor-resultaat-type.git</connection>
     <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-csor-resultaat-type.git</developerConnection>
     <url>https://github.com/milieuinfo/codelijst-csor-resultaat-type.git</url>
-    <tag>HEAD</tag>
+    <tag>codelijst-csor-resultaat-type-0.1.0</tag>
   </scm>
   <build>
     <plugins>
